@@ -1,0 +1,67 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000;
+}
+
+#header {
+    background-color: #000;
+    height: 50px;
+    color: #fff;
+}
+
+#banner {
+    background-color: lightblue;
+    background-image: url("images/banner.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 342px;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+#main-content {
+    height: 352px;
+}
+
+.logo {
+    width: 87px;
+}
+
+#footer {
+    background-color: #ECECEC;
+    height: 57px;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
