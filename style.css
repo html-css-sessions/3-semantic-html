@@ -19,14 +19,14 @@ body {
     color: #fff;
 }
 
-#banner {
+/* #banner {
     background-color: lightblue;
     background-image: url("images/banner.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 342px;
-}
+} */
 
 .responsive-img {
     width: 100%;
