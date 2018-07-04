@@ -19,13 +19,18 @@ body {
     color: #fff;
 }
 
+#banner {
+    height: 300px;
+    overflow: hidden;
+}
+
 /* #banner {
     background-color: lightblue;
     background-image: url("images/banner.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 342px;
+    height: 300px;
 } */
 
 .responsive-img {
@@ -34,7 +39,8 @@ body {
 }
 
 #main-content {
-    height: 352px;
+    min-height: 352px;
+    padding: 44px 0;
 }
 
 .logo {

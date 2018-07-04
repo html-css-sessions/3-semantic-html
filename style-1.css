@@ -110,8 +110,8 @@ header nav {
 
 .img-in-background {
     background-color: lightblue;
-    background-image: url("images/banner-svg.svg");
-    background-position: center center;
+    background-image: url("images/banner.jpg");
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
